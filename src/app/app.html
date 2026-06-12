@@ -1,0 +1,22 @@
+<main>
+  <div class="container">
+    <div class="card">
+      <h1 class="logo">SGPI</h1>
+      <div class="sub-logo">UNPA - Universidad del Papaloapan</div>
+      
+      <div class="status-container">
+        <div class="status-indicator" [class]="status()"></div>
+        <div class="status-label">Conexión con el Backend</div>
+        <div class="status-message">{{ message() }}</div>
+      </div>
+
+      <button class="btn" (click)="checkBackendHealth()">Probar Conexión</button>
+    </div>
+  </div>
+</main>
+
+<footer>
+  Sistema Integral de Gestión de Proyectos de Investigación &copy; 2026
+</footer>
+
+<router-outlet />
