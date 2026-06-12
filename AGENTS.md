@@ -18,6 +18,6 @@ Este archivo proporciona el contexto y los estándares del proyecto de frontend 
 - **Seguridad de Plantillas:** Siempre ejecutar `npm run build` localmente antes de proponer cambios para asegurar que el compilador estricto de Angular no detecte fallos de tipado.
 
 ## 4. Reglas de Git y Colaboración
-- **Ramas:** Ramas de características `feature/us-X-descripcion` derivadas de `develop`.
+- **Ramas:** Ramas de características `feature/epic-X-descripcion` (o `fix/...`) derivadas de `develop`. La planeación, ejecución y creación de Pull Requests se gestionan a nivel de Épica completa.
 - **Commits:** Uso de Conventional Commits y commits atómicos.
 - **PRs:** Apuntar a `develop`. El agente `Pull Request Reviewer` evaluará el PR con comentarios inline de severidad (`[CRITICAL]`, `[MAJOR]`, `[MINOR]`).
